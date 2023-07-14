@@ -1,0 +1,40 @@
+.resume_container{
+    padding: 5% 10%;
+}
+
+.profile{
+    text-align: left;
+}
+.image{
+    text-align: right;
+    img{
+
+        width: 200px;
+        border-radius: 50%;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+
+.description{
+    .name{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .designation{
+        font-size: x-large;
+        font-weight: 700;
+    }
+}
+
+
+.detail{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+    p{
+        margin: 0;
+        font-weight: 600;
+    }
+}
